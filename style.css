@@ -1,0 +1,50 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url("https://wallpapers.com/images/hd/snake-game-1680-x-1050-background-6syqer1fr6oahe0b.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+    text-align: center;
+
+}
+
+.game-container {
+  margin-top: 40px;
+}
+
+canvas {
+  background-image: url("https://w0.peakpx.com/wallpaper/163/61/HD-wallpaper-snake-game.jpg");
+  background-position: center;
+  background-size: cover;
+ 
+  margin: 0 auto;
+
+  border: 2px solid #444;
+}
+
+.info {
+  margin-top: 10px;
+}
+
+#gameOver {
+  margin-top: 20px;
+}
+
+button {
+  padding: 8px 16px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #0af329;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #07f707;
+}
+
+.hidden {
+  display: none;
+}
